@@ -11,6 +11,7 @@ export class StatutService {
 
   constructor(private http: HttpClient) { }
 
+  //Fonction qui va servir a récuperer tous les statuts disponibles en BDD
 
   voirStatuts(): Observable<Statut[]> {
     return this.http.get<Statut[]>('http://localhost:8080/statuts');

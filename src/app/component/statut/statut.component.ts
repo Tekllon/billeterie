@@ -9,9 +9,11 @@ import { StatutService } from '../../service/statut.service';
   styleUrls: ['./statut.component.css']
 })
 export class StatutComponent implements OnInit {
+    //On créé un tableau pouvant accueillir les données provenant du backEnd
+    
 statuts: Statut[] = [];
   constructor(public statutService: StatutService) {
-
+  //On utilise la fonction pour aller demander à l'API
     statutService.voirStatuts().subscribe(allStatuts => {
       this.statuts = allStatuts;
     })

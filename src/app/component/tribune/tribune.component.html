@@ -4,10 +4,12 @@
       <h2> Choix de tribunes :</h2> 
    
       <ul>
+        <!-- ngFor permet d'ajouter les infos récupérées depuis l'API à la suite -->
         <li *ngFor="let tribune of tribunes">
            <p> {{ tribune.id }}  </p> 
         </li>
       </ul>
+      <h2>EN COURS DE DEVELOPPEMENT</h2>
     <a routerLink="/statut" class="btn btn-lg">Statut du billet</a>
   </div> 
 </div>
