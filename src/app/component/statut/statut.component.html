@@ -1,0 +1,14 @@
+<div class="backgroundAccueil">
+  <div class="container">
+
+      <h2> Choix de statut :</h2> 
+   
+      <ul>
+        <li *ngFor="let statut of statuts">
+           <p> {{ statut.nom_Statut }}  </p> 
+        </li>
+      </ul>
+
+    <a routerLink="/places" class="btn btn-lg">Confirmation </a>
+  </div> 
+</div>

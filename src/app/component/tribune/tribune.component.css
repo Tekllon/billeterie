@@ -1,0 +1,38 @@
+.backgroundAccueil{
+    background-size:cover; 
+    position: absolute;
+    z-index: -2;
+    left : 0;
+    right : 0;
+    width: 100%;
+    max-width:100vw;
+    min-height: 39vw;
+    background-image:url('../../../assets/images/stade.jpg');
+    overflow-y: hidden;
+
+  }
+
+  .btn{
+    min-width:20% ;
+    min-height: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 25%;
+    display: block;
+    background-color: red;
+    text-decoration: white;
+    }
+
+    a{
+      color: white;
+      
+    }
+
+    a:hover{
+      color: white;
+    }
+
+
+.container{
+  width: 100vw;
+}

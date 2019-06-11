@@ -1,0 +1,13 @@
+<div class="backgroundAccueil">
+  <div class="container">
+
+      <h2> Choix de tribunes :</h2> 
+   
+      <ul>
+        <li *ngFor="let tribune of tribunes">
+           <p> {{ tribune.id }}  </p> 
+        </li>
+      </ul>
+    <a routerLink="/statut" class="btn btn-lg">Statut du billet</a>
+  </div> 
+</div>
